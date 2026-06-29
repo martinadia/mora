@@ -1,0 +1,29 @@
+Rol 1 — UX Researcher
+
+En este proyecto no hubo una persona asignada exclusivamente al rol de UX Researcher. Todas participamos en la investigación inicial, el análisis de las necesidades de los usuarios y la definición de las principales problemáticas que el sitio debía resolver. También colaboramos en la elaboración del brief UX, las protopersonas y el Anexo de IA, además de revisar en conjunto los informes individuales.
+Trabajar de esta manera nos permitió intercambiar diferentes puntos de vista y tomar decisiones más fundamentadas sobre el diseño y las funcionalidades del sitio. Una de las principales dificultades fue identificar cuáles eran las necesidades más importantes de los usuarios y traducirlas en soluciones simples y claras. Mediante el diálogo y la revisión conjunta logramos llegar a acuerdos que mejoran la experiencia del usuario.
+Este rol nos permitió comprender la importancia de planificar antes de comenzar a desarrollar el sitio. Aprendimos que investigar y conocer al usuario facilita la toma de decisiones durante todo el proyecto y ayuda a crear una página más útil, organizada y fácil de utilizar.
+
+Rol 2 — UI Designer
+
+En este proyecto no hubo una persona encargada exclusivamente del rol de UI Designer, sino que todas participamos en las decisiones relacionadas con el diseño de la interfaz. Como punto de partida utilizamos Stitch, al que le indicamos los colores de la marca y el estilo visual que queríamos lograr. A partir de esas indicaciones, la herramienta generó propuestas de mockups, una paleta de colores y una combinación de tipografías que nos sirvieron como base para comenzar el diseño.
+Si bien esas propuestas fueron de gran ayuda, no las utilizamos exactamente como fueron generadas. Entre todas analizamos los diseños y realizamos modificaciones para adaptarlos a las necesidades del proyecto, reorganizando algunos elementos, ajustando la distribución del contenido y realizando cambios para mejorar la experiencia del usuario y mantener una identidad visual consistente en todas las páginas.
+Durante el proceso aprendimos que herramientas como Stitch pueden agilizar la etapa inicial de diseño y servir como fuente de inspiración, pero que el resultado final depende de las decisiones del equipo. La colaboración entre todas fue fundamental para revisar, mejorar y personalizar las propuestas generadas, logrando un diseño que representara la identidad de la marca y cumpliera con los objetivos del proyecto.
+
+Rol 3 — Frontend Lead (HTML/CSS)
+
+En la etapa de desarrollo frontend las tareas se distribuyeron entre las integrantes del grupo. Una de las integrantes se encargó principalmente de la creación y organización del código HTML y CSS, mientras que otra se ocupó de incorporar imágenes y otros recursos visuales al sitio. Sin embargo, el trabajo no fue completamente individual, ya que todas fuimos revisando las distintas páginas y realizando modificaciones, corrigiendo detalles o proponiendo mejoras cuando encontrábamos algún aspecto que podría optimizarse.
+Durante el desarrollo utilizamos HTML semántico y Bootstrap 5 para construir una estructura ordenada y un diseño responsive, procurando que el sitio se adaptará correctamente a distintos dispositivos. Uno de los principales desafíos fue mantener la coherencia entre todas las páginas y lograr que la distribución de los elementos se viera correctamente en diferentes resoluciones. Gracias a las pruebas y a las revisiones en equipo pudimos detectar y solucionar esos inconvenientes.
+Esta forma de trabajo nos permitió comprender la importancia de la colaboración en el desarrollo frontend. Aunque cada integrante tenía responsabilidades principales, todas participamos en la revisión y mejora del código, lo que contribuyó a obtener un resultado final más prolijo, funcional y consistente.
+
+Rol 4 — Frontend Developer (JS)
+
+En el desarrollo de la interactividad del sitio también distribuimos las tareas entre las integrantes del grupo. Nos enfocamos en implementar las funcionalidades utilizando JavaScript y componentes de Bootstrap, además de incorporar jQuery en aquellos casos donde facilitaba la manipulación del DOM y la implementación de ciertas interacciones de manera más sencilla y organizada.
+A medida que avanzaba el desarrollo, fuimos probando las distintas funciones, detectando errores y realizando pequeñas modificaciones para corregir detalles y optimizar el funcionamiento del sitio.
+Durante este proceso aprendimos que JavaScript, junto con jQuery y Bootstrap, permite agregar dinamismo a una página web y mejorar la interacción con el usuario. También comprendimos la importancia de realizar pruebas constantes y trabajar de forma colaborativa, ya que revisar el código entre todas facilitó la detección de errores y permitió obtener un resultado final más estable y funcional.
+
+Rol 5 — QA / Documentación
+
+Las tareas de control de calidad y documentación también fueron compartidas por todo el equipo. Entre todas verificamos el funcionamiento general del sitio, revisamos posibles errores, analizamos aspectos como la validación del código, la accesibilidad, el contraste de colores y organizamos la documentación necesaria para la entrega final.
+Además, colaboramos en la elaboración de los distintos documentos solicitados, las capturas de pantalla y la revisión de cada parte del proyecto antes de la entrega. Esto permitió detectar pequeños errores que pudieron corregirse a tiempo y garantizar una presentación más completa y ordenada.
+Este rol nos enseñó que el desarrollo de un sitio web no finaliza cuando el código funciona correctamente. También es fundamental revisar la calidad del producto, documentar el proceso realizado y comprobar que todos los requisitos solicitados se encuentren completos. La colaboración entre todas fue clave para lograr una entrega organizada y de buena calidad.
