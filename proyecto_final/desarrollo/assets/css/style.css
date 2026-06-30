@@ -1,0 +1,408 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #dddddd;
+    background-color: black;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 1.05;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+.navbar-collapse a {
+    color: #ffffff;
+}
+
+/* nav */
+.marca {
+    height: 120px;
+}
+
+.imagen-logo {
+    width: 350px;
+}
+
+.nav-link {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: red;
+}
+
+.navbar .nav-link.active {
+    color: red;
+}
+
+.navbar .nav-link.active:hover {
+    color: red;
+}
+
+/* banner y secciones */
+.banner {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.seccion {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gris {
+    background-color: whitesmoke;
+}
+
+.texto-rojo {
+    color: #FF1A2E;
+    font-weight: bold;
+}
+
+.boton-rojo {
+    background-color: #e60012;
+    color: #ffffff;
+    border: 1px solid #e60012;
+    border-radius: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.boton-rojo:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #e60012;
+}
+
+.imagen-principal {
+    width: 400px;
+}
+
+.caja {
+    border: 1px solid #dddddd;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.producto {
+    margin-bottom: 30px;
+}
+
+.producto img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.precio {
+    color: #e60012;
+    font-weight: bold;
+}
+
+.mensaje {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: none;
+}
+
+.bloque-negro {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+
+.producto-carrito {
+    border-bottom: 1px solid #dddddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.producto-carrito img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.producto-carrito-info {
+    padding-left: 15px;
+}
+
+.resumen {
+    border: 1px solid #dddddd;
+    padding: 25px;
+}
+
+.total {
+    color: #e60012;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 35px;
+    margin-top: 30px;
+}
+
+.badge-negro {
+    display: inline-block;
+    background-color: #e60012;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px 10px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.texto-gris a {
+    color: black;
+    font-size: 16px;
+}
+
+.titulo-borde-rojo {
+    border-left: 4px solid #FF1A2E;
+    padding-left: 12px;
+    margin-bottom: 20px;
+    color: #e60012;
+}
+
+.estadistica-numero {
+    color: #e60012;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.estadistica-label {
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.emoji-icono {
+    color: #e60012;
+    margin-right: 8px;
+}
+
+.link-footer {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.link-footer:hover {
+    color: #e60012;
+}
+
+/* menu */
+.card-titulo-precio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.badge-producto {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+
+.link-continuar {
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.link-continuar:hover {
+    color: #e60012;
+}
+
+.texto-negro {
+    color: #000000;
+}
+
+/* tablet responsive */
+@media (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+        font-size: 44px;
+    }
+
+    .marca {
+        height: 90px;
+    }
+
+    .banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .imagen-logo {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .producto img {
+        height: 180px;
+    }
+}
+
+/* mobile responsive  */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .marca {
+        height: 70px;
+    }
+
+    .banner {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .banner img {
+        margin-top: 20px;
+        max-width: 80%;
+    }
+
+    .boton-rojo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .imagen-logo {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .seccion {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .estadistica-numero {
+        font-size: 24px;
+    }
+
+    .titulo-borde-rojo {
+        margin-top: 20px;
+    }
+
+    .caja {
+        padding: 15px;
+    }
+
+    .resumen {
+        margin-bottom: 20px;
+    }
+
+    .producto-carrito img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+}
+
+/* mobile mas pequeño - responsive */
+@media (max-width: 320px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .marca {
+        height: 60px;
+    }
+
+    .banner {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .boton-rojo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .producto img {
+        height: 160px;
+    }
+
+    .resumen {
+        padding: 15px;
+    }
+
+    .total {
+        font-size: 20px;
+    }
+}

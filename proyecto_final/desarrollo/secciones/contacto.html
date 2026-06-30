@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Pizzería Mora</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-black border-bottom" data-bs-theme="dark">
+        <div class="container">
+            <img class="navbar-brand marca" src="../assets/img/logo-mora.png" alt="Logo Pizzería Mora" >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./historia.html">HISTORIA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./menu.html">MENÚ</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="./contacto.html">CONTACTO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./carrito.html">CARRITO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1 class="m-3">Contactanos</h1>
+    </header>
+
+    <main class="pagina">
+        <section class="container">
+
+            <div class="row">
+                <article class="col-md-6">
+                    <div class=" caja">
+                        <h2>Canales directos</h2>
+                        <p><strong>WhatsApp:</strong> +54 11 5589-7939</p>
+                        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/morapizzaycafe/?hl=es" class="text-decoration-none" style="color: black;">@morapizzaycafe</a></p>
+                        <p><strong>Ubicación:</strong> Av. Hipolito Yrigoyen 1699</p>
+                        <a href="https://wa.me/541155897939" class="btn boton-rojo">WHATSAPP</a>
+                    </div>
+                </article>
+
+                <article class="col-md-6">
+                    <div class="bloque-negro">
+                        <h2>Horarios</h2>
+                        <p>Lunes a Viernes : 7:30am - 02:00am</p>
+                        <p>Domingo: 17:00pm - 02:00am </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="container seccion">
+            <h2>Escribinos</h2>
+
+            <form onsubmit="return validarFormulario()">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" id="nombre" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="text" id="telefono" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea id="mensaje" class="form-control" rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="btn boton-rojo">ENVIAR CONSULTA</button>
+            </form>
+
+            <div id="respuestaFormulario" class="mensaje"></div>
+        </section>
+
+        <section class="gris seccion">
+            <div class="container text-center">
+                <h2 style="color: black;">que dicen nuestros clientes</h2>
+
+                <div class="row">
+                    <article class="col-md-4">
+                        <div class="caja">
+                            <p>"La masa es excelente y el pedido fue rapidísimo."</p>
+                            <p><strong>Julián Rossi</strong></p>
+                        </div>
+                    </article>
+
+                    <article class="col-md-4">
+                        <div class="caja">
+                            <p>"Muy buena atención y precios claros."</p>
+                            <p><strong>Carla Méndez</strong></p>
+                        </div>
+                    </article>
+
+                    <article class="col-md-4">
+                        <div class="caja">
+                            <p>"Me sirvió poder ver el menú antes de pedir."</p>
+                            <p><strong>Marcos Paz</strong></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p style="color: rgb(185, 17, 17);"><strong>CONOCE MÁS</strong></p>
+        <p>
+            <a href="https://web.facebook.com/p/Mora-PizzaCafé-100081624707303/?_rdc=1&_rdr" class="link-footer" target="_blank">FACEBOOK</a> ·
+            <a href="https://www.instagram.com/morapizzaycafe/?hl=en" class="link-footer" target="_blank">INSTAGRAM</a> ·
+            <a href="https://wa.me/1155897939" class="link-footer" target="_blank">WHATSAPP</a>
+        </p>
+        <p>©️ 2026 Pizzería Mora. WE LOVE PIZZA.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzería Mora</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-black border-bottom" data-bs-theme="dark">
+        <div class="container">
+            <img class="navbar-brand marca" src="./assets/img/logo-mora.png" alt="Logo Pizzeria Mora">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="./index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./secciones/historia.html">HISTORIA</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./secciones/menu.html">MENÚ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./secciones/contacto.html">CONTACTO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./secciones/carrito.html">CARRITO</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  
+        <header>
+            <section class="banner">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h1>UN CLÁSICO DE <span style="color: red;">Avellaneda</span></h1>
+                            <p class="texto-gris">Pizza Mora es una pizzería de barrio dedicada a preparar pizzas elaboradas con ingredientes frescos y recetas tradicionales.</p>
+                            <a href="./secciones/menu.html" class="btn boton-rojo mt-5 mb-5">VER MENÚ</a>
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <img src="./assets/img/fachada-pizzeria.jpg" class="img-fluid" alt="Fachada de la pizzería">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+    <main>
+        <section class="seccion gris">
+            <div class="container">
+                <div class="row align-items-center">
+                    <article class="col-md-6">
+                        <img src="./assets/img/horno.jpg" alt="Horno de pizzas" class="img-fluid">
+                    </article>
+
+                    <article class="col-md-6">
+                        <h2 class="titulo-borde-rojo">Nuestra Historia</h2>
+                        <p class="texto-negro">Hace 27 años que Pizzería Mora forma parte de Avellaneda compartiendo algo tan simple como importante: buena pizza hecha con dedicación. Con el tiempo, fuimos creciendo junto al barrio, convirtiéndonos en un lugar de encuentro para vecinos, amigos y familias que nos eligen día a día.</p>
+                        <p class="texto-negro">Cada pizza que sale de nuestro horno es el resultado de 48 horas de fermentación lenta y la selección rigurosa de ingredientes locales de la más alta calidad. La precisión es nuestro ingrediente secreto, y el fuego, nuestro mejor aliado.</p>
+
+                        <div class="row mt-3 mb-3">
+                            <div class="col-6">
+                                <p class="estadistica-numero">15+</p>
+                                <p class="estadistica-label">AÑOS DE TRADICIÓN</p>
+                            </div>
+                            <div class="col-6">
+                                <p class="estadistica-numero">100%</p>
+                                <p class="estadistica-label">ARTESANAL</p>
+                            </div>
+                        </div>
+
+                        <a href="./secciones/historia.html" class="btn btn-outline-dark">CONOCER MÁS</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row align-items-center">
+                    <article class="col-12 col-md-6 order-2 order-md-1">
+                        <h2 class="titulo-borde-rojo mt-3">Ubicación</h2>
+
+                        <div class="mb-3">
+                            <p><i class="bi bi-geo-alt-fill texto-rojo"></i> <strong>DIRECCIÓN</strong><br>
+                            Av. Hipolito Yrigoyen 1699.</p>
+                        </div>
+
+                        <div class="mb-3">
+                            <p><i class="bi bi-clock-fill texto-rojo"></i> <strong>HORARIO</strong><br>
+                            Lunes a Viernes: 7:30am - 02:00 am<br>
+                            Domingos: 17:00pm - 02:00am<br>
+                            </p>
+                        </div>
+
+                        <div class="mb-3">
+                            <p><i class="bi bi-telephone-fill texto-rojo"></i> <strong>CONTACTO</strong><br>
+                            4208-9899</p>
+                        </div>
+
+                        <a href="https://maps.app.goo.gl/4KAdnS7picvKqmau5" class="btn btn-outline-light" target="_blank">CÓMO LLEGAR</a>
+                    </article>
+                    <div class="col-12 col-md-6">
+                        <div class="ratio ratio-16x9 mt-3">
+                            <iframe title="Mapa Pizzeria Mora" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2973.897873689481!2d-58.38311589999999!3d-34.67654199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcccb7f7ec936b%3A0xb6e8b9b4a3ba9fb6!2sMora%20Pizza%20Caf%C3%A9!5e0!3m2!1sen!2sar!4v1778601277311!5m2!1sen!2sar" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+       
+
+    <footer>
+        <p style="color: rgb(185, 17, 17);"><strong>CONOCE MÁS</strong></p>
+        <p>
+            <a href="https://web.facebook.com/p/Mora-PizzaCafé-100081624707303/?_rdc=1&_rdr" class="link-footer" target="_blank">FACEBOOK</a> ·
+            <a href="https://www.instagram.com/morapizzaycafe/?hl=en" class="link-footer" target="_blank">INSTAGRAM</a> ·
+            <a href="https://wa.me/1155897939" class="link-footer" target="_blank">WHATSAPP</a>
+        </p>
+        <p>© 2026 Pizzería Mora. WE LOVE PIZZA.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
